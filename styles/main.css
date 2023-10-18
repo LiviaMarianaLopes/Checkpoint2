@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=PT+Sans&family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:ital@1&display=swap');
+
+html {
+    width: 100%;
+}
+body {
+  
+    margin: 0;
+    height: 100%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+justify-content: space-between;
+
+}
+.capa {
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(55, 5, 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  height: 230px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner {
+   
+    margin: 15px;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+}
+.banner p{
+    margin: 8px;
+}
+.principal{
+    font-family: 'playfair display', sans-serif;
+    font-size: 25px;
+  
+   
+}
+
+.capa section {
+    text-align: center;
+}
+
+.texto {
+height: 300px;
+    font-family: 'PT Sans', sans-serif;
+    padding: 20px;
+
+    background-color: rgb(236, 222, 222);
+    display: flex;
+   
+}
+
+.texto div {
+    padding-left: 25px;
+    margin: 5px;
+    width: 50%;
+}
+
+.texto h1 {
+    color: aliceblue;
+    font-size: 50px;
+    margin: 0;
+}
+
+.titulo {
+    margin: 0;
+    font-size: 150%;
+}
+
+.texto p {
+    margin: 10px;
+}
+
+.ultimo {
+    
+    display: flex;
+}
+
+.saiba {
+
+    width: 50%;
+    background-color: rgb(255, 239, 239);
+    font-family: 'Comfortaa', sans-serif;
+    padding: 15px;
+    text-align: center;
+}
+
+.saiba p {
+    padding: 15px;
+}
+.saiba img{
+    width: 60%;
+}
+
+.final {
+    background-color: rgb(237, 237, 237);
+    width: 50%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    
+    font-family: 'PT Sans', sans-serif;
+    padding: 0px;
+}
+
+button {
+    font-family: 'Comfortaa', sans-serif;
+    padding: 8px;
+    margin: 15px;
+    background-color: white;
+
+}
+.pena{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-start;
+    
+}
+
+
+button:hover {
+    background-color: rgb(247, 232, 232);
+}
+
+.mais {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 60%;
+    margin: 20%;
+}
+@media (max-width: 909px), (min-width: 431){
+    .texto{
+        height: auto;
+    }
+    .titulo{
+        font-size:  130%;
+     }
+}
+@media (max-width: 431px), (min-width: 345px){
+
+    .ultimo div{
+    padding: 0px;
+}
+.texto div{
+    padding: 0px;
+}
+.final{
+    justify-content: center;
+}
+button{
+    size: auto;
+}
+
+.pena img{
+    width: 40%;
+}
+button{
+padding: 2%;
+}
+
+}
+@media (max-width: 345px){
+.capa{
+    background-size: 150%;
+}
+}
+@media (max-width: 600px){
+    .conteudo{
+        text-align:center;
+    }
+}
