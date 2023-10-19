@@ -10,11 +10,10 @@ body {
     margin: 0;
     height: 100%;
 }
-main{
-    display: flex;
-    flex-direction: column;
-justify-content: space-between;
 
+
+main{
+    flex: auto;
 }
 .capa {
     font-family: 'PT Sans', sans-serif;
